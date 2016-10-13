@@ -1,0 +1,455 @@
+<html><head><style>/* From Mike Graves:
+   https://github.com/gravesm/kendallite/blob/master/kendallite/static/css/layer.css
+ */
+
+html, body {
+    height: 100%;
+    font-family: serif;
+}
+
+.metadata-detail dl {
+    margin-left: 15px;
+    padding-left: 10px;
+}
+
+.metadata-detail dt {
+    width: 260px;
+}
+
+.metadata-detail dd {
+    margin-left: 275px;
+}
+
+.layer-info dd {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+h3 {
+    border-bottom: 1px solid #eee;
+}
+
+h3:hover {
+    cursor: pointer;
+}
+
+h3:before {
+    content: "+";
+    margin-right: 10px;
+}
+
+h3.expanded:before {
+    content: '\2013';
+    margin-right: 10px;
+}
+
+h3:hover:before {
+    color: #428bce;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+h5 {
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 10px;
+}
+
+section {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+section > div {
+    padding: 10px;
+}
+</style><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script>$(document).ready( function () {
+    $("h3").on("click", function() {
+        $(this).toggleClass('expanded');
+        $(this).next("section").toggle();
+    }).next("section").toggle();
+});</script></head><body><?xml version="1.0"?>
+<h3>Identification Information</h3>
+<section>
+  <h4>Citation Information</h4>
+  <dl class="dl-horizontal">
+    <dt title="Originator">Originator</dt>
+    <dd>United Nations.</dd>
+    <dt title="Originator">Originator</dt>
+    <dd>United Nations Stabilization Mission in Haiti.</dd>
+    <dt title="Publication Date">Publication Date</dt>
+    <dd>20090901</dd>
+    <dt title="Title">Title</dt>
+    <dd>Level 4 Administrative Boundaries Haiti</dd>
+    <dt title="Geospatial Data Presentation Form">Geospatial Data Presentation Form</dt>
+    <dd>vector digital data</dd>
+    <dt title="Publication Place">Publication Place</dt>
+    <dd>Port-au-Prince (Haiti)</dd>
+    <dt title="Publisher">Publisher</dt>
+    <dd>United Nations Stabilization Mission in Haiti.</dd>
+    <dt title="Online Linkage">Online Linkage</dt>
+    <dd>
+      <a href="http://www.un.org/en/peacekeeping/missions/minustah/">http://www.un.org/en/peacekeeping/missions/minustah/</a>
+    </dd>
+    <dt title="Originator">Originator</dt>
+    <dd>United Nations Stabilization Mission in Haiti.</dd>
+    <dt title="Title">Title</dt>
+    <dd>Haiti GIS Data</dd>
+    <dt title="Publication Place">Publication Place</dt>
+    <dd>Port-au-Prince (Haiti)</dd>
+    <dt title="Publisher">Publisher</dt>
+    <dd>United Nations Stabilization Mission in Haiti.</dd>
+  </dl>
+  <h4>Description</h4>
+  <dl class="dl-horizontal">
+    <dt title="Abstract">Abstract</dt>
+    <dd>The following polygon dataset represents level four administrative boundaries in Haiti.</dd>
+    <dt title="Purpose">Purpose</dt>
+    <dd>This layer is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</dd>
+  </dl>
+  <h4>Time Period of Content</h4>
+  <dl class="dl-horizontal">
+    <dt title="Calendar Date">Calendar Date</dt>
+    <dd>090901</dd>
+    <dt title="Currentness Reference">Currentness Reference</dt>
+    <dd>publication date</dd>
+  </dl>
+  <h4>Status</h4>
+  <dl class="dl-horizontal">
+    <dt title="Progress">Progress</dt>
+    <dd>In work</dd>
+    <dt title="Maintenance and Update Frequency">Maintenance and Update Frequency</dt>
+    <dd>Unknown</dd>
+  </dl>
+  <h4>Spatial Domain</h4>
+  <dl class="dl-horizontal">
+    <dt title="West Bounding Coordinate">West Bounding Coordinate</dt>
+    <dd>-74.480376</dd>
+    <dt title="East Bounding Coordinate">East Bounding Coordinate</dt>
+    <dd>-71.622136</dd>
+    <dt title="North Bounding Coordinate">North Bounding Coordinate</dt>
+    <dd>20.089318</dd>
+    <dt title="South Bounding Coordinate">South Bounding Coordinate</dt>
+    <dd>18.022057</dd>
+  </dl>
+  <h4>Keywords</h4>
+  <dl class="dl-horizontal">
+    <dt title="Theme Keywords">Theme Keywords</dt>
+    <dd>polygon</dd>
+    <dt title="Theme Keywords">Theme Keywords</dt>
+    <dd>Boundaries; Location; Society</dd>
+    <dt title="Theme Keywords">Theme Keywords</dt>
+    <dd>Administrative and political divisions.</dd>
+    <dt title="Place Keywords">Place Keywords</dt>
+    <dd>Haiti</dd>
+    <dt title="Place Keywords">Place Keywords</dt>
+    <dd>Northern Hemisphere; Western Hemisphere; South America</dd>
+  </dl>
+  <dl class="dl-horizontal">
+    <dt title="Access Constraints">Access Constraints</dt>
+    <dd>Unrestricted Access Online: Access is granted to licensee only. Available to Tufts University affiliates.</dd>
+  </dl>
+  <dl class="dl-horizontal">
+    <dt title="Use Constraints">Use Constraints</dt>
+    <dd>For educational noncommercial use only.</dd>
+  </dl>
+  <dl class="dl-horizontal">
+    <dt title="Organization">Organization</dt>
+    <dd>United Nations Headquarters</dd>
+    <dt title="Person">Person</dt>
+    <dd>Alice Chow</dd>
+    <dt title="Position">Position</dt>
+    <dd>Chief, Geographic Operations</dd>
+    <dt title="Address Type">Address Type</dt>
+    <dd>mailing address</dd>
+    <dt title="Address"/>
+    <dd>
+      <address>380 Madison Avenue<br/>New York City, New York 10017<br/>USA</address>
+    </dd>
+    <dt title="Phone">Phone</dt>
+    <dd>212-963-5001</dd>
+    <dt title="Fax">Fax</dt>
+    <dd>212-963-3742</dd>
+    <dt title="Email">Email</dt>
+    <dd>
+      <a href="mailto:chowa@un.org">chowa@un.org</a>
+    </dd>
+  </dl>
+</section>
+<h3>Data Quality Information</h3>
+<section>
+  <h4>Lineage Process Step</h4>
+  <dl class="dl-horizontal">
+    <dt title="Process Description">Process Description</dt>
+    <dd>Name was changed from hti_polbnda_adm4_minustah to HaitiPolBnd4</dd>
+    <dt title="Process Date">Process Date</dt>
+    <dd>20120504</dd>
+  </dl>
+</section>
+<h3>Spatial Data Organization Information</h3>
+<section>
+  <dl class="dl-horizontal">
+    <dt title="Direct Spatial Reference Method">Direct Spatial Reference Method</dt>
+    <dd>Vector</dd>
+    <dt title="SDTS Point and Vector Object Type">SDTS Point and Vector Object Type</dt>
+    <dd>G-polygon</dd>
+    <dt title="Point and Vector Object Count">Point and Vector Object Count</dt>
+    <dd>559</dd>
+  </dl>
+</section>
+<h3>Spatial Reference Information</h3>
+<section>
+  <dl class="dl-horizontal">
+    <h4>Horizontal Coordinate System Definition</h4>
+    <dl class="dl-horizontal">
+      <dt title="Latitude Resolution">Latitude Resolution</dt>
+      <dd>0.000000</dd>
+      <dt title="Longitude Resolution">Longitude Resolution</dt>
+      <dd>0.000000</dd>
+      <dt title="Geographic Coordinate Units">Geographic Coordinate Units</dt>
+      <dd>Decimal degrees</dd>
+    </dl>
+    <dl class="dl-horizontal">
+      <dt title="Horizontal Datum Name">Horizontal Datum Name</dt>
+      <dd>D_WGS_1984</dd>
+      <dt title="Ellipsoid Name">Ellipsoid Name</dt>
+      <dd>WGS_1984</dd>
+      <dt title="Semi-major Axis">Semi-major Axis</dt>
+      <dd>6378137.000000</dd>
+      <dt title="Denominator of Flattening Ratio">Denominator of Flattening Ratio</dt>
+      <dd>298.257224</dd>
+    </dl>
+  </dl>
+</section>
+<h3>Entity and Attribute Information</h3>
+<section>
+  <h4>HaitiPolBnd4</h4>
+  <section>
+    <h5>Shape</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Feature geometry.</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>ID_ADM1</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Unique identifier for the Department</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>Shape_Area</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Area of feature in meters squared.</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>ADM1</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Name of the Department</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>FID</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Internal feature number.</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>Shape_Leng</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Geoprocessing Identifier.</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>ID_ADM2</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Indentifier of the Arrondissement</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>ADM2</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Name of the Arrondissement</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>ID_ADM3</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Unique identifier of the commune.</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>NOM_ADM3</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Name of the commune.</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>ADM3</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Name of the commune.</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>NO_ADM4</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Name of the Section Communale</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>ID_ADM4</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Unique identifier at the Section Communale level</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>NOM_ADM4</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Name of the Section Communale</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>ADM4</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Name of the Section Communale</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>Shape_Le_1</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Geoprocessing Identifier.</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+  <section>
+    <h5>Shape_Ar_1</h5>
+    <dl class="dl-horizontal">
+      <dt title="Attribute Definition">Attribute Definition</dt>
+      <dd>Geoprocessing Identifier.</dd>
+      <dt title="Attribute Definition Source">Attribute Definition Source</dt>
+      <dd>Tufts University. Geographic Information Systems Center</dd>
+    </dl>
+  </section>
+</section>
+<h3>Distribution Information</h3>
+<section>
+  <dl class="dl-horizontal">
+    <dt title="Organization">Organization</dt>
+    <dd>Tufts University GIS Center</dd>
+    <dt title="Position">Position</dt>
+    <dd>GIS Data Technician</dd>
+    <dt title="Address Type">Address Type</dt>
+    <dd>mailing and physical address</dd>
+    <dt title="Address"/>
+    <dd>
+      <address>Academic Technology<br/>Somerville, MA 02144<br/>USA</address>
+    </dd>
+    <dt title="Phone">Phone</dt>
+    <dd>617-627-3380</dd>
+    <dt title="Email">Email</dt>
+    <dd>
+      <a href="mailto:gis-support@elist.tufts.edu">gis-support@elist.tufts.edu</a>
+    </dd>
+    <dt title="Hours of Service">Hours of Service</dt>
+    <dd>Monday-Friday, 9:00 AM-5:00 PM, EST-USA</dd>
+  </dl>
+</section>
+<h3>Metadata Reference Information</h3>
+<section>
+  <dl class="dl-horizontal">
+    <dt title="Metadata Date">Metadata Date</dt>
+    <dd>20120618</dd>
+    <dt title="Organization">Organization</dt>
+    <dd>Tufts University GIS Center</dd>
+    <dt title="Person">Person</dt>
+    <dd>REQUIRED: The person responsible for the metadata information.</dd>
+    <dt title="Position">Position</dt>
+    <dd>GIS Data Technician</dd>
+    <dt title="Address Type">Address Type</dt>
+    <dd>mailing and physical address</dd>
+    <dt title="Address"/>
+    <dd>
+      <address>Academic Technology<br/>Somerville, MA 02144<br/>USA</address>
+    </dd>
+    <dt title="Phone">Phone</dt>
+    <dd>617-627-3380</dd>
+    <dt title="Email">Email</dt>
+    <dd>
+      <a href="mailto:gis-support@elist.tufts.edu">gis-support@elist.tufts.edu</a>
+    </dd>
+    <dt title="Hours of Service">Hours of Service</dt>
+    <dd>Monday-Friday, 9:00 AM-5:00 PM, EST-USA</dd>
+    <dt title="Metadata Standard Name">Metadata Standard Name</dt>
+    <dd>FGDC Content Standards for Digital Geospatial Metadata</dd>
+    <dt title="Metadata Standard Version">Metadata Standard Version</dt>
+    <dd>FGDC-STD-001-1998</dd>
+    <dt title="Metadata Time Convention">Metadata Time Convention</dt>
+    <dd>local time</dd>
+    <dt title="Online Linkage">Online Linkage</dt>
+    <dd>
+      <a href="http://www.esri.com/metadata/esriprof80.html">http://www.esri.com/metadata/esriprof80.html</a>
+    </dd>
+    <dt title="Profile Name">Profile Name</dt>
+    <dd>ESRI Metadata Profile</dd>
+    <dt title="Online Linkage">Online Linkage</dt>
+    <dd>
+      <a href="http://www.esri.com/metadata/esriprof80.html">http://www.esri.com/metadata/esriprof80.html</a>
+    </dd>
+    <dt title="Profile Name">Profile Name</dt>
+    <dd>ESRI Metadata Profile</dd>
+  </dl>
+</section>
+</body></html>
